@@ -1,0 +1,77 @@
+h1{
+  color: white;
+  font-size: 50px;
+  font-family: Rockwell;
+}
+body{
+  background-color:#993232;
+}
+#searchform{
+  width:600px;
+  margin-left:auto;
+  margin-right:auto;
+  padding:10px;
+  text-align:center;
+}
+#box,#search{
+  display:block;
+  margin:10px;
+  font-size:25px;
+}
+.randomLink,.randomLink:hover,.randomLink:active,.randomLink:visited{
+  text-decoration:none;
+  color:#fff;
+}
+.icon{
+  margin:2px;
+  color: #993232;
+}
+.iconLink,.iconLink:hover,.iconLink:active,.iconLink:visited{
+  text-decoration:none;
+  color:#fff;
+}
+.displayResults{
+  display:block;
+  min-width:500px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:10px;
+  margin-bottom:10px;
+  padding:5px;
+}
+.result{
+  display:block;
+  border-left:solid 3px #325c74;
+  margin:10px 0px 10px 0px;
+  padding:10px;
+  background-color:white;
+}
+.result:hover{
+  border-color:orange;
+}
+.result:hover>.title>.titleLink{
+  color:orange;
+}
+.title{
+  font-weight:bold;
+  font-size:20px;
+  padding:2px;
+}
+.titleLink,.titleLink:hover,.titleLink:active,.titleLink:visited{
+  text-decoration:none;
+}
+.desc{
+  padding:2px;
+}
+#main{
+  padding-top:10px;
+  padding-bottom:20px;
+}
+btn{
+  display: block;
+}
+.codded{
+  text-align: center;
+  font-size: 28px;
+  color: white;
+}
