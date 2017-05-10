@@ -1,0 +1,75 @@
+body {
+  background-color: #30C4D4;
+  font-family: NeythalRegular, "Gill Sans", "Trebuchet MS";
+  font-size: 32px;
+}
+
+h1 {
+  color: #fff;
+  font-size: 1.7em;
+  margin: 25px 0px 10px;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, .3);
+}
+
+#codding {
+  color: #4A2B0F;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 5000em;
+  text-align: center;
+  width: 80%;
+}
+
+.box {
+  background-color: #EBD698;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FAE4A2), to(#EBD698));
+  border: 3px #333333 solid;
+  border-radius: 40px;
+  box-shadow: 3px 3px 2px rgba(102, 117, 127, .4);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 10px 20px 10px;
+  width: 90%;
+}
+
+footer {
+  color: #ffffff;
+  font-size: 18px;
+  margin-top: 20px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
+}
+
+#q-text {
+  cursor: pointer;
+  display: block;
+  margin-left: 10%;
+  margin-right: 10%;
+  position: relative;
+  width: auto;
+  background-color:#333333;
+}
+#quote-area {
+  position: relative;
+  top: 20px;
+}
+
+.quote-box {
+  background: #FFFFFE;
+  box-shadow: 2px 2px 1px rgba(102, 117, 127, .3);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px #333333 solid;
+  position: relative;
+}
+
+#quote-area {
+  border-radius: 50px;
+  max-width: 90%;
+  margin-left:5%;
+  margin-right: 5%;
+  margin-top: 2%;
+}
